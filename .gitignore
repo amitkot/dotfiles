@@ -1,0 +1,21 @@
+*
+!.*
+
+# ignore list:
+.CFUserTextEncoding
+.DS_Store
+.Trash/
+.Xauthority
+.bash_history
+.eclipse_keyring
+.fctsslvpnhistory
+.gdb_history
+.gitk
+.inkscape-etc/
+.lesshst
+.profile.macports-saved_2011-05-10_at_10:21:51
+.recently-used.xbel
+.sqlite_history
+.swo
+.swp
+.viminfo

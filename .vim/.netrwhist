@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Applications/Processing.app/Contents/Resources/Java/modes/android/examples/Topics/GUI/Scrollbar/android/src'
+let g:netrw_dirhist_2='/Applications/Processing.app/Contents/Resources/Java/modes/android/examples/Topics/GUI/Scrollbar/android'
+let g:netrw_dirhist_3='/Applications/Processing.app/Contents/Resources/Java/modes/android/examples/Topics/GUI/Scrollbar/android/libs'
+let g:netrw_dirhist_4='/Applications/Processing.app/Contents/Resources/Java/modes/android/examples/Topics/GUI/Scrollbar/android'
+let g:netrw_dirhist_5='/Users/amit'
