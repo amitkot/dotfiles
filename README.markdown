@@ -16,6 +16,7 @@ To clone this to your home directory follow these steps:
 1. open MSYSGIT bash shell on your user's home directory
 
 2. run these commands:
+
     cd ~/..
     git clone --no-checkout http://github.com/amitkot/dotfiles ~/dotfiles.tmp # might want --no-hardlinks for cloning local repo
     mv ~/dotfiles.tmp/.git ~/
