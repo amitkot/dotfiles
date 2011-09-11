@@ -1,0 +1,3 @@
+[submodule "bin/external/bashmarks"]
+	path = bin/external/bashmarks
+	url = http://github.com/twerth/bashmarks
