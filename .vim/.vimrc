@@ -1,5 +1,7 @@
 " .vimrc
-"
+
+
+set runtimepath^=~/.vim     " Use instead of "vimfiles" on windows
 
 " Vundle and bundles configuration
 source ~/.vim/bundles.vim
