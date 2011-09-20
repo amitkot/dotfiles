@@ -5,6 +5,9 @@
 source ~/.vim/bundles.vim
 
 
+"To avoid issues, use unix line-endings by default
+set fileformats=unix,dos,mac
+
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
 
@@ -40,6 +43,7 @@ set si " smartindent (local to buffer)
 "set t_Co=256 " 256 colors
 set background=dark 
 syntax on " syntax highlighting
+"set guifont=Consolas:h12,Monaco:h12,Inconsolata:h12
 colorscheme ir_black
 
 
@@ -64,3 +68,10 @@ endif
 
 filetype on            " enables filetype detection
 filetype plugin on     " enables filetype specific plugins
+
+"
+" Searching options
+
+set hlsearch
+set incsearch
+set ignorecase smartcase
