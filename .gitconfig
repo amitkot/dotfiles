@@ -1,24 +1,18 @@
 [merge]
 	tool = opendiff
-
 [mergetool "mgvim"]
-	cmd=/Users/amit/bin/mvim -d -g -f $LOCAL $MERGED $REMOTE
-	keepbackup=false
-
+	cmd = /Users/amit/bin/mvim -d -g -f $LOCAL $MERGED $REMOTE
+	keepbackup = false
 [mergetool "mvim"]
-	cmd=/Users/amit/bin/mvim -d -f $LOCAL $MERGED $REMOTE
-	keepbackup=false
-
+	cmd = /Users/amit/bin/mvim -d -f $LOCAL $MERGED $REMOTE
+	keepbackup = false
 [mergetool "araxismergetool"]
-	cmd = /Users/amit/bin/araxisgitmerge "$PWD/$REMOTE" "$PWD/$BASE" "$PWD/$LOCAL" "$PWD/$MERGED"
+	cmd = /Users/amit/bin/araxisgitmerge \"$PWD/$REMOTE\" \"$PWD/$BASE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
 	trustExitCode = false
-
 [difftool "mgvim"]
-	cmd=/Users/amit/bin/mvim -d -g -f $LOCAL $REMOTE
-
+	cmd = /Users/amit/bin/mvim -d -g -f $LOCAL $REMOTE
 [difftool "mvim"]
-	cmd=/Users/amit/bin/mvim -d -f $LOCAL $REMOTE
-
+	cmd = /Users/amit/bin/mvim -d -f $LOCAL $REMOTE
 [color]
 	branch = auto
 	diff = auto
@@ -36,10 +30,8 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-[gui]
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-
 [user]
 	name = Amit Kotlovski
 	email = amitbk@gmail.com
@@ -47,3 +39,8 @@
 	autocrlf = input
 	safecrlf = true
 	quotepath = false
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = c:/Program Files (x86)/KDiff3/kdiff3.exe

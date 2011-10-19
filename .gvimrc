@@ -1,1 +1,1 @@
-/Users/amit/.vim/.gvimrc
+source ~/.vim/.gvimrc
