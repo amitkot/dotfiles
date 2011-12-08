@@ -1,4 +1,4 @@
-*
+/*
 !.*
 
 # ignore list:
@@ -13,11 +13,14 @@
 .gitk
 .inkscape-etc/
 .lesshst
-.profile.macports-saved_2011-05-10_at_10:21:51
 .recently-used.xbel
 .sqlite_history
 .swo
 .swp
-.viminfo
 .bookmarks
 .ganttproject
+
+.viminfo
+.vim/bundle
+!.vim/bundle/
+!.vim/bundle/vundle
