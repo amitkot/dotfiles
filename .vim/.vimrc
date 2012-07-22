@@ -77,3 +77,13 @@ filetype plugin on     " enables filetype specific plugins
 set hlsearch
 set incsearch
 set ignorecase smartcase
+
+set statusline=+'%<\ %f\ %{fugitive#statusline()}'
+
+" call flake8 to make sure my python code is pretty
+"autocmd BufWritePost *.py call Flake8()
+
+" disable python source folding
+let g:pymode_folding = 0
+let g:pymode_lint_checker = "pylint,pyflakes,pep8,mccabe"
+

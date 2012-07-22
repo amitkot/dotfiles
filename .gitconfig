@@ -35,12 +35,3 @@
 [user]
 	name = Amit Kotlovski
 	email = amitbk@gmail.com
-[core]
-	autocrlf = input
-	safecrlf = true
-	quotepath = false
-	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
-[diff]
-	guitool = kdiff3
-[difftool "kdiff3"]
-	path = c:/Program Files (x86)/KDiff3/kdiff3.exe

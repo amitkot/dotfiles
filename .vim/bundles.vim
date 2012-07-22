@@ -16,9 +16,11 @@ Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-ragtag'
 Bundle 'msanders/snipmate.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'rainerborene/vim-pony'
+Bundle 'klen/python-mode'
+Bundle 'nvie/vim-flake8'
 
 " vim-scripts repos 
-Bundle 'pyflakes.vim'
 Bundle 'matchit.zip'
 Bundle 'pythoncomplete'
 
